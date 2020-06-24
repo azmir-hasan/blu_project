@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    padding: 0px;
+        
+}
+
+/*header*/
+header {
+    background-color: #121B2A;
+    padding: 10px 0;
+}
+
+.wrapper {
+    width: 80%;
+   
+    margin: 0 auto;
+    overflow: hidden;
+/*    border: 1px solid red;*/
+}
+
+.logo {
+    width: 17%;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+    
+}
+
+.menu {
+    width: 70%;
+   
+    float: right;
+    margin-top: 30px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+        list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0px 15px;
+    display: inline-block;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #0078BD;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+/*end-header*/
+
+/*star-banner*/
+
+.banner{
+    background-image: url(image/blue_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:;
+    height: min
+}
+.b_content {
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.b_content h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.b_content h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    color: #0078BD;
+    margin: 0;
+}
+.b_content p {
+    font-family: sans-serif;
+   
+    color: white;
+    margin: 0;
+    line-height: 25px;
+}
+.b_content button{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5A5A5A;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.b_content button:hover{
+   color: #0078BD;
+}
+
+.b_content button:focus{
+    outline: 0;
+}
+    
+/*start-service*/
+
+.service {
+    background-color: #121B2C;
+    padding:30px 0px 8px;
+
+    
+}
+
+.single-itm {
+    width: 29%;
+    padding: 20px 2% 30px;
+ border-right: 1px solid white;
+    float: left;
+    
+}
+.single-itm:last-child {
+    border-right: 0px;
+}
+
+.top {
+    
+    overflow: hidden;
+}
+
+.t-img {
+    width: 23%;
+    float: left;      
+}
+
+.t-img img{
+    width: 100%;
+}
+.t-text {
+    width: 74%;
+    float: left;
+    margin-top: 7px;
+    
+}
+
+.t-text h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+     color: white; 
+    margin: 0;
+}
+.t-text h3{
+      font-family: sans-serif;
+    font-size: 23px;
+     color:#0078BC; 
+    margin: 0;
+}
+h2 span{
+ color:#0078BC;
+}
+
+.t-text h2.last-text {
+    margin-top: 25px;
+}
+
+.botom {
+    margin-top: 20px;
+}
+
+.botom p {
+     font-family: sans-serif;
+     color: white; 
+    margin: 0;
+    line-height: 25px;
+    
+}
+
+/*start-contact*/
+
+
+
+.contact {
+    padding: 40px 0px 50px;
+    background-color: #040811;
+}
+.contact-wrapper{
+    width: 75%;
+   
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part-1 {
+    width: 30%;
+    float: left;
+    color: white;
+/*    border: 1px solid red;*/
+    margin-right: 30px;
+}
+.part-1:last-child {
+    margin-right: 0px;
+    
+}
+.part-1 h2 {
+    color: white;
+    font-size: 21px;
+    margin: 0px;
+}
+
+.part-1 p a {
+    color: white;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+.t_text {
+   background-color: #0C1019;
+    border-radius: 10px;
+    padding: 5px 14px 10px;
+    margin-bottom: 20px;
+}
+
+.t_text p {
+    font-family: serif;
+    font-size: 14px;
+}
+
+
+
+.margin {
+    margin: 0;
+    padding-left: 12px;
+}
+
+
+
+.p_left {
+    float: left;
+    width: 45%;
+   
+}
+.p_left img{
+    width: 100%;
+   
+}
+
+.p_right {
+    float: right;
+    width: 50%;
+    
+}
+
+.p_right p{
+    margin: 0px;
+    
+}
+
+
+
+/*footer*/
+
+.footer {
+    background-color: #121B2C;
+
+}
+
+.single {
+    width: 60%;
+    float: left;
+    margin-top: 25px;
+}
+.single p {
+   color: white;
+  margin-left: 8px;
+}
+
+
+.footer-menu ul{
+    padding: inherit;
+    
+}
+.footer-menu ul li{
+    list-style: none;
+    float: left;
+    
+} 
+.footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0px 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    border-right: 1px solid white;
+    
+}
+.footer-menu ul li:last-child a{
+    border-right:none;
+}
+
+.single-2 {
+    width: 40%;
+    float: right;
+}
+
+
+
+
